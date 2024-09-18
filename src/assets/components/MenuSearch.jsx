@@ -371,7 +371,7 @@ function MenuSearch() {
       )}
 
       {/* Render Message */}
-      { orderError !== null ? <MessageModal isItError={orderError} message={orderError ? "Something must be wrong from our side, order was not successful! Please try to contact a waiter if you can! Thank you for your patience!" : "Ordered placed successfully"} closeMessageBackdrop={() => {setOrderError(null)}} /> : null}
+      { orderError !== null ? <MessageModal isItError={orderError} message={orderError ? "Sorry, since we didn't connect any backend to it we can't accept orders but thank you for trying anyway!" : "Ordered placed successfully"} closeMessageBackdrop={() => {setOrderError(null)}} /> : null}
     </section>
   );
 }

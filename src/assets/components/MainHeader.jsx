@@ -32,7 +32,7 @@ function MainHeader() {
         <li className={classes.link} onClick={handleTablesView}>Tabels</li>
         <Link to="/contact"><li className={classes.link}>Contact</li></Link>
         <Link to="/about"><li className={classes.link}>About</li></Link>
-        <Link to="/menu"><li className={`${classes.link} ${classes.menuLink}`}>Menu</li></Link>
+        <Link to="/menu/2"><li className={`${classes.link} ${classes.menuLink}`}>Menu</li></Link>
       </ul>
       <IoMenu className={classes.burgerMenu} onClick={handleMobileNavView} />
       { isMobileNavVisible ? <div className={classes.backdrop} onClick={handleMobileNavView}>
@@ -40,7 +40,7 @@ function MainHeader() {
           <li className={classes.link} onClick={handleTablesView}>Tabels</li>
           <Link to="/contact"><li className={classes.link}>Contact</li></Link>
           <Link to="/about"><li className={classes.link}>About</li></Link>
-          <Link to="/menu"><li className={`${classes.link} ${classes.menuLink}`}>Menu</li></Link>
+          <Link to="/menu/2"><li className={`${classes.link} ${classes.menuLink}`}>Menu</li></Link>
         </ul>
       </div> : null }
       { isTableVisible ? <Tables items={tableData} onCloseBackdrop={handleTablesView} /> : null }
