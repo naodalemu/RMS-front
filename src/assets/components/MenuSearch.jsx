@@ -6,6 +6,7 @@ import MenuItem from "./MenuItem";
 import Modal from "./Modal";
 import CartSummary from "./CartSummary";
 import MessageModal from "./MessageModal";
+import menuItems from "../menuData.json"
 
 
 function MenuSearch() {
@@ -18,9 +19,9 @@ function MenuSearch() {
   const [currentDinnerPage, setCurrentDinnerPage] = useState(1);
   const [currentDrinkPage, setCurrentDrinkPage] = useState(1);
   const [isCartSummaryVisible, setIsCartSummaryVisible] = useState(false);
-  const [menuItems, setMenuItems] = useState([]);
+  // const [menuItems, setMenuItems] = useState([]);
   const [allTagNames, setAllTagNames] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [orderError, setOrderError] = useState(null)
   
@@ -31,37 +32,36 @@ function MenuSearch() {
   const drinkItemsPerPage = 16;
 
   const cartItems = JSON.parse(localStorage.getItem('cart'));
+  console.log()
 
   // Fetch menu items from the API
-  useEffect(() => {
-    const fetchMenuItems = async () => {
-      try {
-        const response = await axios.get("http://127.0.0.1:8000/api/menu-items");
-        const menuItems = response.data;
+  // useEffect(() => {
+  //   const fetchMenuItems = async () => {
+  //     try {
+  //       const response = await axios.get("http://127.0.0.1:8000/api/menu-items");
+  //       const menuItems = response.data;
 
-        // Create a Set to ensure unique tag names
-        const tagSet = new Set();
+  //       const tagSet = new Set();
 
-        menuItems.forEach(item => {
-          item.tags.forEach(tag => {
-            tagSet.add(tag.name); // Add each tag's name to the Set
-          });
-        });
+  //       menuItems.forEach(item => {
+  //         item.tags.forEach(tag => {
+  //           tagSet.add(tag.name); 
+  //         });
+  //       });
 
-        // Convert the Set back to an array and store it in state
-        setAllTagNames([...tagSet]);
+  //       setAllTagNames([...tagSet]);
 
-        setMenuItems(menuItems);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching menu items:", error);
-        setError("Failed to load menu items");
-        setLoading(false);
-      }
-    };
+  //       setMenuItems(menuItems);
+  //       setLoading(false);
+  //     } catch (error) {
+  //       console.error("Error fetching menu items:", error);
+  //       setError("Failed to load menu items");
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchMenuItems();
-  }, []);
+  //   fetchMenuItems();
+  // }, []);
 
   const menuTags = allTagNames;
 
@@ -106,12 +106,12 @@ function MenuSearch() {
     return items.slice(startIndex, startIndex + itemsPerPage);
   };
 
-  if (loading) {
-    return <p>Loading...</p>; // Loading state
-  }
+  // if (loading) {
+  //   return <p>Loading...</p>;
+  // }
 
   if (error) {
-    return <p>{error}</p>; // Error state
+    return <p>{error}</p>;
   }
 
   const foodItems = menuItems.filter((item) => item.categories.toLowerCase() === "food");

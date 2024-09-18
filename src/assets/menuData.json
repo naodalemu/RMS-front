@@ -7,7 +7,7 @@
         "ingredients": [{"name":"Chicken breast"}, {"name":"Chicken thighs"}, {"name":"Carrots"}, {"name":"Celery"}, {"name":"Onions"}, {"name":"Garlic"}, {"name":"Chicken broth"}, {"name":"Parsley"}, {"name":"Thyme"}, {"name":"Bay leaves"}, {"name":"Salt"}, {"name":"Black pepper"}, {"name":"Noodles"}, {"name":"Rice"}, {"name":"Potatoes"}, {"name":"Butter"}, {"name":"Olive oil"}, {"name":"Ginger"}, {"name":"Lemon juice"}, {"name":"Green beans"}, {"name":"Peas"}, {"name":"Corn"}, {"name":"Parsnips"}, {"name":"Leeks"}, {"name":"Chili flakes"}, {"name":"Rosemary"}, {"name":"Spinach"}, {"name":"Mushrooms"}],
         "tags": [{"name":"Organic"}, {"name":"Lunch"}, {"name":"Fried"}, {"name":"Pizza"}],
         "price": "$43.44",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "ingredients": [{"name":"Salmon fillet"}, {"name":"Lemon"}, {"name":"Dill"}, {"name":"Olive oil"}, {"name":"Garlic"}, {"name":"Salt"}, {"name":"Pepper"}, {"name":"Quinoa"}, {"name":"Zucchini"}, {"name":"Bell peppers"}, {"name":"Red onions"}, {"name":"Asparagus"}],
         "tags": [{"name":"Healthy"}, {"name":"Dinner"}, {"name":"Seafood"}],
         "price": "$29.99",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "ingredients": [{"name":"Pizza dough"}, {"name":"Tomato sauce"}, {"name":"Mozzarella cheese"}, {"name":"Basil"}, {"name":"Olive oil"}, {"name":"Salt"}],
         "tags": [{"name":"Vegetarian"}, {"name":"Lunch"}, {"name":"Dinner"}, {"name":"Pizza"}],
         "price": "$15.99",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "ingredients": [{"name":"Romaine lettuce"}, {"name":"Grilled chicken breast"}, {"name":"Croutons"}, {"name":"Parmesan cheese"}, {"name":"Caesar dressing"}, {"name":"Anchovies"}, {"name":"Lemon juice"}, {"name":"Olive oil"}, {"name":"Garlic"}, {"name":"Dijon mustard"}, {"name":"Egg yolk"}, {"name":"Salt"}, {"name":"Pepper"}],
         "tags": [{"name":"Salad"}, {"name":"Lunch"}, {"name":"Healthy"}, {"name":"Chicken"}],
         "price": "$12.49",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "ingredients": [{"name":"Spaghetti"}, {"name":"Pancetta"}, {"name":"Eggs"}, {"name":"Parmesan cheese"}, {"name":"Black pepper"}, {"name":"Parsley"}, {"name":"Salt"}],
         "tags": [{"name":"Pasta"}, {"name":"Dinner"}, {"name":"Comfort Food"}],
         "price": "$18.75",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "ingredients": [{"name":"Quinoa"}, {"name":"Sweet potatoes"}, {"name":"Chickpeas"}, {"name":"Avocado"}, {"name":"Spinach"}, {"name":"Red cabbage"}, {"name":"Carrots"}, {"name":"Tahini"}, {"name":"Lemon juice"}, {"name":"Garlic"}, {"name":"Olive oil"}, {"name":"Salt"}, {"name":"Pepper"}],
         "tags": [{"name":"Vegan"}, {"name":"Gluten-Free"}, {"name":"Healthy"}, {"name":"Lunch"}],
         "price": "$13.50",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "ingredients": [{"name":"Beef patty"}, {"name":"Cheddar cheese"}, {"name":"Lettuce"}, {"name":"Tomato"}, {"name":"Pickles"}, {"name":"Brioche bun"}, {"name":"Fries"}, {"name":"Ketchup"}, {"name":"Mustard"}, {"name":"Onions"}],
         "tags": [{"name":"Burger"}, {"name":"Dinner"}, {"name":"Comfort Food"}, {"name":"Fast Food"}],
         "price": "$11.99",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "ingredients": [{"name":"Tuna"}, {"name":"Soy sauce"}, {"name":"Sesame oil"}, {"name":"Sushi rice"}, {"name":"Avocado"}, {"name":"Cucumber"}, {"name":"Edamame"}, {"name":"Seaweed salad"}, {"name":"Sesame seeds"}, {"name":"Green onions"}],
         "tags": [{"name":"Poke Bowl"}, {"name":"Seafood"}, {"name":"Healthy"}, {"name":"Lunch"}],
         "price": "$17.25",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "ingredients": [{"name":"Eggplant"}, {"name":"Marinara sauce"}, {"name":"Mozzarella cheese"}, {"name":"Parmesan cheese"}, {"name":"Bread crumbs"}, {"name":"Olive oil"}, {"name":"Garlic"}, {"name":"Basil"}, {"name":"Salt"}, {"name":"Pepper"}],
         "tags": [{"name":"Vegetarian"}, {"name":"Italian"}, {"name":"Dinner"}, {"name":"Comfort Food"}],
         "price": "$14.99",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "ingredients": [{"name":"Dark chocolate"}, {"name":"Butter"}, {"name":"Sugar"}, {"name":"Eggs"}, {"name":"Flour"}, {"name":"Vanilla extract"}, {"name":"Salt"}, {"name":"Vanilla ice cream"}],
         "tags": [{"name":"Dessert"}, {"name":"Chocolate"}, {"name":"Cake"}, {"name":"Sweet"}],
         "price": "$8.50",
-        "category" : "food"
+        "categories" : "food"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "ingredients": [{"name": "Shrimp"}, {"name": "Garlic"}, {"name": "Butter"}, {"name": "Linguine"}, {"name": "Lemon"}, {"name": "Parsley"}, {"name": "White wine"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Seafood"}, {"name": "Dinner"}, {"name": "Pasta"}],
         "price": "$22.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "ingredients": [{"name": "Arborio rice"}, {"name": "Mushrooms"}, {"name": "Onions"}, {"name": "Garlic"}, {"name": "White wine"}, {"name": "Parmesan cheese"}, {"name": "Truffle oil"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Vegetarian"}, {"name": "Dinner"}, {"name": "Italian"}],
         "price": "$19.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "ingredients": [{"name": "Chicken breast"}, {"name": "Fettuccine"}, {"name": "Butter"}, {"name": "Cream"}, {"name": "Parmesan cheese"}, {"name": "Garlic"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Pasta"}, {"name": "Chicken"}, {"name": "Dinner"}, {"name": "Comfort Food"}],
         "price": "$17.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "ingredients": [{"name": "Pork ribs"}, {"name": "Barbecue sauce"}, {"name": "Coleslaw"}, {"name": "Baked beans"}, {"name": "Brown sugar"}, {"name": "Paprika"}, {"name": "Garlic powder"}, {"name": "Onion powder"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "BBQ"}, {"name": "Dinner"}, {"name": "Comfort Food"}, {"name": "Pork"}],
         "price": "$24.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
         "ingredients": [{"name": "Cucumbers"}, {"name": "Tomatoes"}, {"name": "Kalamata olives"}, {"name": "Red onions"}, {"name": "Feta cheese"}, {"name": "Olive oil"}, {"name": "Lemon juice"}, {"name": "Oregano"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Salad"}, {"name": "Vegetarian"}, {"name": "Healthy"}, {"name": "Lunch"}],
         "price": "$11.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 16,
@@ -157,7 +157,7 @@
         "ingredients": [{"name": "Chicken wings"}, {"name": "Buffalo sauce"}, {"name": "Butter"}, {"name": "Vinegar"}, {"name": "Garlic powder"}, {"name": "Salt"}, {"name": "Pepper"}, {"name": "Celery"}, {"name": "Blue cheese dressing"}],
         "tags": [{"name": "Appetizer"}, {"name": "Chicken"}, {"name": "Spicy"}, {"name": "Snack"}],
         "price": "$13.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 17,
@@ -167,7 +167,7 @@
         "ingredients": [{"name": "Penne"}, {"name": "Tomato sauce"}, {"name": "Garlic"}, {"name": "Chili flakes"}, {"name": "Olive oil"}, {"name": "Parmesan cheese"}, {"name": "Parsley"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Pasta"}, {"name": "Vegetarian"}, {"name": "Spicy"}, {"name": "Italian"}],
         "price": "$14.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 18,
@@ -177,7 +177,7 @@
         "ingredients": [{"name": "Pork"}, {"name": "Corn tortillas"}, {"name": "Onions"}, {"name": "Cilantro"}, {"name": "Lime"}, {"name": "Pineapple"}, {"name": "Chili powder"}, {"name": "Cumin"}, {"name": "Garlic"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Tacos"}, {"name": "Mexican"}, {"name": "Dinner"}, {"name": "Street Food"}],
         "price": "$12.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 19,
@@ -187,7 +187,7 @@
         "ingredients": [{"name": "Sushi rice"}, {"name": "Nori"}, {"name": "Tuna"}, {"name": "Salmon"}, {"name": "Avocado"}, {"name": "Cucumber"}, {"name": "Soy sauce"}, {"name": "Wasabi"}, {"name": "Pickled ginger"}],
         "tags": [{"name": "Sushi"}, {"name": "Seafood"}, {"name": "Japanese"}, {"name": "Lunch"}],
         "price": "$28.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 20,
@@ -197,7 +197,7 @@
         "ingredients": [{"name": "Lamb"}, {"name": "Pita bread"}, {"name": "Tomatoes"}, {"name": "Onions"}, {"name": "Tzatziki sauce"}, {"name": "Garlic"}, {"name": "Cucumber"}, {"name": "Yogurt"}, {"name": "Olive oil"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Greek"}, {"name": "Lunch"}, {"name": "Dinner"}, {"name": "Street Food"}],
         "price": "$14.75",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 21,
@@ -207,7 +207,7 @@
         "ingredients": [{"name": "Broccoli"}, {"name": "Bell peppers"}, {"name": "Carrots"}, {"name": "Snap peas"}, {"name": "Soy sauce"}, {"name": "Ginger"}, {"name": "Garlic"}, {"name": "Jasmine rice"}, {"name": "Sesame oil"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Vegetarian"}, {"name": "Vegan"}, {"name": "Healthy"}, {"name": "Dinner"}],
         "price": "$11.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 22,
@@ -217,7 +217,7 @@
         "ingredients": [{"name": "Beef patty"}, {"name": "Cheddar cheese"}, {"name": "Lettuce"}, {"name": "Tomato"}, {"name": "Onions"}, {"name": "Pickles"}, {"name": "Sesame seed bun"}, {"name": "Fries"}, {"name": "Ketchup"}, {"name": "Mustard"}],
         "tags": [{"name": "Burger"}, {"name": "Lunch"}, {"name": "Dinner"}, {"name": "Fast Food"}],
         "price": "$10.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 23,
@@ -227,7 +227,7 @@
         "ingredients": [{"name": "Onions"}, {"name": "Beef broth"}, {"name": "Sherry"}, {"name": "Baguette"}, {"name": "Gruyère cheese"}, {"name": "Butter"}, {"name": "Thyme"}, {"name": "Bay leaves"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Soup"}, {"name": "Comfort Food"}, {"name": "Dinner"}, {"name": "French"}],
         "price": "$9.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 24,
@@ -237,7 +237,7 @@
         "ingredients": [{"name": "Falafel"}, {"name": "Pita bread"}, {"name": "Lettuce"}, {"name": "Tomatoes"}, {"name": "Cucumbers"}, {"name": "Tahini sauce"}, {"name": "Garlic"}, {"name": "Lemon juice"}, {"name": "Olive oil"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Vegetarian"}, {"name": "Lunch"}, {"name": "Middle Eastern"}],
         "price": "$8.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 25,
@@ -247,7 +247,7 @@
         "ingredients": [{"name": "Rice noodles"}, {"name": "Shrimp"}, {"name": "Tofu"}, {"name": "Eggs"}, {"name": "Tamarind sauce"}, {"name": "Peanuts"}, {"name": "Bean sprouts"}, {"name": "Lime"}, {"name": "Garlic"}, {"name": "Chili flakes"}, {"name": "Sugar"}, {"name": "Fish sauce"}],
         "tags": [{"name": "Thai"}, {"name": "Noodles"}, {"name": "Dinner"}, {"name": "Asian"}],
         "price": "$15.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 26,
@@ -257,7 +257,7 @@
         "ingredients": [{"name": "Clams"}, {"name": "Potatoes"}, {"name": "Onions"}, {"name": "Celery"}, {"name": "Bacon"}, {"name": "Heavy cream"}, {"name": "Butter"}, {"name": "Flour"}, {"name": "Thyme"}, {"name": "Bay leaves"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Soup"}, {"name": "Seafood"}, {"name": "Comfort Food"}, {"name": "Lunch"}],
         "price": "$12.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 27,
@@ -267,7 +267,7 @@
         "ingredients": [{"name": "Ziti pasta"}, {"name": "Tomato sauce"}, {"name": "Ricotta cheese"}, {"name": "Mozzarella cheese"}, {"name": "Parmesan cheese"}, {"name": "Garlic"}, {"name": "Basil"}, {"name": "Olive oil"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Pasta"}, {"name": "Italian"}, {"name": "Dinner"}, {"name": "Comfort Food"}],
         "price": "$14.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 28,
@@ -277,7 +277,7 @@
         "ingredients": [{"name": "Lettuce"}, {"name": "Grilled chicken"}, {"name": "Bacon"}, {"name": "Eggs"}, {"name": "Avocado"}, {"name": "Blue cheese"}, {"name": "Tomatoes"}, {"name": "Vinaigrette"}, {"name": "Olive oil"}, {"name": "Mustard"}, {"name": "Lemon juice"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Salad"}, {"name": "Lunch"}, {"name": "Healthy"}, {"name": "Chicken"}],
         "price": "$13.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 29,
@@ -287,7 +287,7 @@
         "ingredients": [{"name": "Chicken"}, {"name": "Yogurt"}, {"name": "Tomato sauce"}, {"name": "Cream"}, {"name": "Garlic"}, {"name": "Ginger"}, {"name": "Garam masala"}, {"name": "Cumin"}, {"name": "Coriander"}, {"name": "Turmeric"}, {"name": "Cayenne pepper"}, {"name": "Basmati rice"}, {"name": "Naan bread"}],
         "tags": [{"name": "Indian"}, {"name": "Spicy"}, {"name": "Dinner"}, {"name": "Comfort Food"}],
         "price": "$16.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 30,
@@ -297,7 +297,7 @@
         "ingredients": [{"name": "Ravioli"}, {"name": "Spinach"}, {"name": "Ricotta cheese"}, {"name": "Tomato basil sauce"}, {"name": "Garlic"}, {"name": "Olive oil"}, {"name": "Parmesan cheese"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Pasta"}, {"name": "Italian"}, {"name": "Vegetarian"}, {"name": "Dinner"}],
         "price": "$13.75",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 31,
@@ -307,7 +307,7 @@
         "ingredients": [{"name": "Flour"}, {"name": "Eggs"}, {"name": "Milk"}, {"name": "Baking powder"}, {"name": "Sugar"}, {"name": "Butter"}, {"name": "Maple syrup"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sweet"}, {"name": "Comfort Food"}],
         "price": "$8.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 32,
@@ -317,7 +317,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Canadian bacon"}, {"name": "English muffins"}, {"name": "Hollandaise sauce"}, {"name": "Butter"}, {"name": "Lemon juice"}, {"name": "Hash browns"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Eggs"}, {"name": "Comfort Food"}],
         "price": "$10.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 33,
@@ -327,7 +327,7 @@
         "ingredients": [{"name": "Avocado"}, {"name": "Whole grain bread"}, {"name": "Sea salt"}, {"name": "Black pepper"}, {"name": "Red pepper flakes"}, {"name": "Lemon juice"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Healthy"}, {"name": "Vegetarian"}],
         "price": "$7.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 34,
@@ -337,7 +337,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Bacon"}, {"name": "Cheddar cheese"}, {"name": "Flour tortilla"}, {"name": "Salsa"}, {"name": "Guacamole"}, {"name": "Sour cream"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Mexican"}, {"name": "Comfort Food"}],
         "price": "$9.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 35,
@@ -347,7 +347,7 @@
         "ingredients": [{"name": "Brioche bread"}, {"name": "Eggs"}, {"name": "Milk"}, {"name": "Cinnamon"}, {"name": "Vanilla extract"}, {"name": "Butter"}, {"name": "Maple syrup"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sweet"}, {"name": "Comfort Food"}],
         "price": "$8.75",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 36,
@@ -357,7 +357,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Bacon"}, {"name": "Cheddar cheese"}, {"name": "Bagel"}, {"name": "Croissant"}, {"name": "Butter"}, {"name": "Hash browns"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sandwich"}, {"name": "Comfort Food"}],
         "price": "$7.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 37,
@@ -367,7 +367,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Spinach"}, {"name": "Feta cheese"}, {"name": "Onions"}, {"name": "Butter"}, {"name": "Whole grain toast"}, {"name": "Fruit"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Healthy"}, {"name": "Vegetarian"}],
         "price": "$9.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 38,
@@ -377,7 +377,7 @@
         "ingredients": [{"name": "Bagel"}, {"name": "Cream cheese"}, {"name": "Smoked salmon"}, {"name": "Capers"}, {"name": "Red onions"}, {"name": "Dill"}, {"name": "Lemon"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Seafood"}, {"name": "Comfort Food"}],
         "price": "$11.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 39,
@@ -387,7 +387,7 @@
         "ingredients": [{"name": "Greek yogurt"}, {"name": "Berries"}, {"name": "Honey"}, {"name": "Granola"}, {"name": "Nuts"}, {"name": "Vanilla extract"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Healthy"}, {"name": "Vegetarian"}],
         "price": "$6.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 40,
@@ -397,7 +397,7 @@
         "ingredients": [{"name": "Croissant"}, {"name": "Eggs"}, {"name": "Cheddar cheese"}, {"name": "Butter"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sandwich"}, {"name": "Comfort Food"}],
         "price": "$5.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 41,
@@ -407,7 +407,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Corn tortillas"}, {"name": "Tomato-chili sauce"}, {"name": "Cilantro"}, {"name": "Avocado"}, {"name": "Queso fresco"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Mexican"}, {"name": "Spicy"}],
         "price": "$9.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 42,
@@ -417,7 +417,7 @@
         "ingredients": [{"name": "Flour"}, {"name": "Eggs"}, {"name": "Milk"}, {"name": "Baking powder"}, {"name": "Butter"}, {"name": "Strawberries"}, {"name": "Whipped cream"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sweet"}, {"name": "Comfort Food"}],
         "price": "$7.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 43,
@@ -427,7 +427,7 @@
         "ingredients": [{"name": "Acai berries"}, {"name": "Bananas"}, {"name": "Berries"}, {"name": "Granola"}, {"name": "Honey"}, {"name": "Coconut flakes"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Healthy"}, {"name": "Vegan"}],
         "price": "$8.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 44,
@@ -437,7 +437,7 @@
         "ingredients": [{"name": "Biscuits"}, {"name": "Sausage"}, {"name": "Milk"}, {"name": "Flour"}, {"name": "Butter"}, {"name": "Salt"}, {"name": "Pepper"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Comfort Food"}, {"name": "Southern"}],
         "price": "$7.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 45,
@@ -447,7 +447,7 @@
         "ingredients": [{"name": "Flour"}, {"name": "Sugar"}, {"name": "Cinnamon"}, {"name": "Butter"}, {"name": "Cream cheese"}, {"name": "Vanilla extract"}, {"name": "Yeast"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sweet"}, {"name": "Comfort Food"}],
         "price": "$4.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 46,
@@ -457,7 +457,7 @@
         "ingredients": [{"name": "Chia seeds"}, {"name": "Almond milk"}, {"name": "Honey"}, {"name": "Berries"}, {"name": "Nuts"}, {"name": "Vanilla extract"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Healthy"}, {"name": "Vegan"}],
         "price": "$5.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 47,
@@ -467,7 +467,7 @@
         "ingredients": [{"name": "Pizza dough"}, {"name": "Eggs"}, {"name": "Bacon"}, {"name": "Mozzarella cheese"}, {"name": "Chives"}, {"name": "Olive oil"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Pizza"}, {"name": "Comfort Food"}],
         "price": "$12.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 48,
@@ -477,7 +477,7 @@
         "ingredients": [{"name": "Eggs"}, {"name": "Tomatoes"}, {"name": "Bell peppers"}, {"name": "Onions"}, {"name": "Garlic"}, {"name": "Cumin"}, {"name": "Paprika"}, {"name": "Feta cheese"}, {"name": "Cilantro"}, {"name": "Pita bread"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Middle Eastern"}, {"name": "Spicy"}],
         "price": "$10.50",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 49,
@@ -487,7 +487,7 @@
         "ingredients": [{"name": "Flour"}, {"name": "Blueberries"}, {"name": "Sugar"}, {"name": "Eggs"}, {"name": "Milk"}, {"name": "Butter"}, {"name": "Baking powder"}, {"name": "Vanilla extract"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Sweet"}, {"name": "Baked"}],
         "price": "$3.99",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 50,
@@ -497,7 +497,7 @@
         "ingredients": [{"name": "Tofu"}, {"name": "Spinach"}, {"name": "Bell peppers"}, {"name": "Onions"}, {"name": "Turmeric"}, {"name": "Nutritional yeast"}, {"name": "Whole grain toast"}, {"name": "Avocado"}],
         "tags": [{"name": "Breakfast"}, {"name": "Brunch"}, {"name": "Vegan"}, {"name": "Healthy"}],
         "price": "$8.75",
-        "category": "food"
+        "categories": "food"
     },
     {
         "id": 51,
@@ -507,7 +507,7 @@
         "ingredients": [{"name":"Pineapple juice"}, {"name":"Lemonade"}, {"name":"Simple syrup"}, {"name":"Mint leaves"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Tea"}],
         "price": "$22.67",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 52,
@@ -517,7 +517,7 @@
         "ingredients": [{"name":"White rum"}, {"name":"Lime juice"}, {"name":"Mint leaves"}, {"name":"Sugar"}, {"name":"Soda water"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$15.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 53,
@@ -527,7 +527,7 @@
         "ingredients": [{"name":"Mango"}, {"name":"Yogurt"}, {"name":"Honey"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Smoothie"}, {"name":"Healthy"}],
         "price": "$8.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 54,
@@ -537,7 +537,7 @@
         "ingredients": [{"name":"Vodka"}, {"name":"Espresso"}, {"name":"Coffee liqueur"}, {"name":"Vanilla syrup"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}, {"name":"Coffee"}],
         "price": "$18.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 55,
@@ -547,7 +547,7 @@
         "ingredients": [{"name":"Green tea"}, {"name":"Lemonade"}, {"name":"Honey"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Juice"}],
         "price": "$5.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 56,
@@ -557,7 +557,7 @@
         "ingredients": [{"name":"White rum"}, {"name":"Coconut cream"}, {"name":"Pineapple juice"}, {"name":"Ice"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$14.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 57,
@@ -567,7 +567,7 @@
         "ingredients": [{"name":"Espresso"}, {"name":"Milk"}, {"name":"Caramel syrup"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Coffee"}],
         "price": "$4.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 58,
@@ -577,7 +577,7 @@
         "ingredients": [{"name":"Blueberries"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Mint leaves"}, {"name":"Water"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}],
         "price": "$6.25",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 59,
@@ -587,7 +587,7 @@
         "ingredients": [{"name":"Gin"}, {"name":"Vermouth"}, {"name":"Campari"}, {"name":"Orange peel"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$16.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 60,
@@ -597,7 +597,7 @@
         "ingredients": [{"name":"Matcha powder"}, {"name":"Milk"}, {"name":"Honey"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Healthy"}],
         "price": "$7.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 61,
@@ -607,7 +607,7 @@
         "ingredients": [{"name":"Red wine"}, {"name":"Brandy"}, {"name":"Orange juice"}, {"name":"Chopped fruit"}, {"name":"Sugar"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Wine"}, {"name":"Cocktail"}],
         "price": "$12.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 62,
@@ -617,7 +617,7 @@
         "ingredients": [{"name":"Lime juice"}, {"name":"Mint leaves"}, {"name":"Sugar"}, {"name":"Soda water"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Mocktail"}, {"name":"Juice"}],
         "price": "$5.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 63,
@@ -627,7 +627,7 @@
         "ingredients": [{"name":"Black tea"}, {"name":"Milk"}, {"name":"Cinnamon"}, {"name":"Cardamom"}, {"name":"Ginger"}, {"name":"Sugar"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Spiced"}],
         "price": "$6.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 64,
@@ -637,7 +637,7 @@
         "ingredients": [{"name":"Tequila"}, {"name":"Lime juice"}, {"name":"Triple sec"}, {"name":"Salt"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$13.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 65,
@@ -647,7 +647,7 @@
         "ingredients": [{"name":"Dark chocolate"}, {"name":"Milk"}, {"name":"Vanilla extract"}, {"name":"Whipped cream"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Hot Drink"}, {"name":"Sweet"}],
         "price": "$4.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 66,
@@ -657,7 +657,7 @@
         "ingredients": [{"name":"Ginger"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Water"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Soda"}, {"name":"Spicy"}],
         "price": "$3.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 67,
@@ -667,7 +667,7 @@
         "ingredients": [{"name":"Bourbon"}, {"name":"Sugar"}, {"name":"Bitters"}, {"name":"Orange peel"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$14.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 68,
@@ -677,7 +677,7 @@
         "ingredients": [{"name":"Black tea"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}],
         "price": "$3.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 69,
@@ -687,7 +687,7 @@
         "ingredients": [{"name":"Rum"}, {"name":"Coconut cream"}, {"name":"Pineapple juice"}, {"name":"Ice"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}, {"name":"Tropical"}],
         "price": "$13.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 70,
@@ -697,7 +697,7 @@
         "ingredients": [{"name":"Rose water"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Water"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Floral"}],
         "price": "$4.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 71,
@@ -707,7 +707,7 @@
         "ingredients": [{"name":"Blackberries"}, {"name":"Mint leaves"}, {"name":"Lime juice"}, {"name":"White rum"}, {"name":"Sugar"}, {"name":"Soda water"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}, {"name":"Fruity"}],
         "price": "$12.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 72,
@@ -717,7 +717,7 @@
         "ingredients": [{"name":"Lemon juice"}, {"name":"Lavender syrup"}, {"name":"Sugar"}, {"name":"Water"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Floral"}],
         "price": "$5.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 73,
@@ -727,7 +727,7 @@
         "ingredients": [{"name":"Cucumber"}, {"name":"Mint leaves"}, {"name":"Lime juice"}, {"name":"Soda water"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Mocktail"}, {"name":"Fresh"}],
         "price": "$4.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 74,
@@ -737,7 +737,7 @@
         "ingredients": [{"name":"Espresso"}, {"name":"Milk"}, {"name":"Chocolate syrup"}, {"name":"Whipped cream"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Coffee"}, {"name":"Sweet"}],
         "price": "$5.25",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 75,
@@ -747,7 +747,7 @@
         "ingredients": [{"name":"Vodka"}, {"name":"Tomato juice"}, {"name":"Worcestershire sauce"}, {"name":"Hot sauce"}, {"name":"Celery"}, {"name":"Olives"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}, {"name":"Spicy"}],
         "price": "$11.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 76,
@@ -757,7 +757,7 @@
         "ingredients": [{"name":"Coconut water"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Healthy"}, {"name":"Hydrating"}],
         "price": "$3.25",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 77,
@@ -767,7 +767,7 @@
         "ingredients": [{"name":"Ginger"}, {"name":"Lemon"}, {"name":"Honey"}, {"name":"Hot water"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Hot Drink"}],
         "price": "$4.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 78,
@@ -777,7 +777,7 @@
         "ingredients": [{"name":"Whiskey"}, {"name":"Lemon juice"}, {"name":"Simple syrup"}, {"name":"Cherry"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$12.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 79,
@@ -787,7 +787,7 @@
         "ingredients": [{"name":"Strawberries"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Water"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Fruity"}],
         "price": "$4.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 80,
@@ -797,7 +797,7 @@
         "ingredients": [{"name":"Coffee"}, {"name":"Irish whiskey"}, {"name":"Sugar"}, {"name":"Cream"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Hot Drink"}, {"name":"Coffee"}],
         "price": "$10.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 81,
@@ -807,7 +807,7 @@
         "ingredients": [{"name":"Mango"}, {"name":"Yogurt"}, {"name":"Milk"}, {"name":"Sugar"}, {"name":"Cardamom"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Smoothie"}, {"name":"Indian"}],
         "price": "$5.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 82,
@@ -817,7 +817,7 @@
         "ingredients": [{"name":"Black tea"}, {"name":"Raspberries"}, {"name":"Lemon juice"}, {"name":"Sugar"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Fruity"}],
         "price": "$4.25",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 83,
@@ -827,7 +827,7 @@
         "ingredients": [{"name":"Pineapple"}, {"name":"Lime juice"}, {"name":"Sugar"}, {"name":"Water"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Tropical"}],
         "price": "$3.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 84,
@@ -837,7 +837,7 @@
         "ingredients": [{"name":"Bourbon"}, {"name":"Mint leaves"}, {"name":"Simple syrup"}, {"name":"Crushed ice"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}],
         "price": "$13.00",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 85,
@@ -847,7 +847,7 @@
         "ingredients": [{"name":"Vanilla ice cream"}, {"name":"Milk"}, {"name":"Vanilla extract"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Milkshake"}, {"name":"Sweet"}],
         "price": "$6.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 86,
@@ -857,7 +857,7 @@
         "ingredients": [{"name":"Whiskey"}, {"name":"Honey"}, {"name":"Lemon"}, {"name":"Hot water"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Hot Drink"}, {"name":"Comfort"}],
         "price": "$8.75",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 87,
@@ -867,7 +867,7 @@
         "ingredients": [{"name":"Prosecco"}, {"name":"Peach puree"}],
         "tags": [{"name":"Alcoholic"}, {"name":"Cocktail"}, {"name":"Sparkling"}],
         "price": "$10.50",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 88,
@@ -877,7 +877,7 @@
         "ingredients": [{"name":"Black tea"}, {"name":"Sweetened condensed milk"}, {"name":"Vanilla extract"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Tea"}, {"name":"Sweet"}],
         "price": "$4.99",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 89,
@@ -887,7 +887,7 @@
         "ingredients": [{"name":"Cranberry juice"}, {"name":"Soda water"}, {"name":"Lime juice"}, {"name":"Ice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Juice"}, {"name":"Fruity"}],
         "price": "$4.25",
-        "category" : "drink"
+        "categories" : "drink"
     },
     {
         "id": 90,
@@ -897,6 +897,6 @@
         "ingredients": [{"name":"Apple cider"}, {"name":"Cinnamon"}, {"name":"Cloves"}, {"name":"Orange juice"}],
         "tags": [{"name":"Non-Alcoholic"}, {"name":"Hot Drink"}, {"name":"Spiced"}],
         "price": "$4.75",
-        "category" : "drink"
+        "categories" : "drink"
     }
 ]
