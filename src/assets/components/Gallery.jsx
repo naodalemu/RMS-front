@@ -554,7 +554,7 @@ function FoodGallery({ type }) {
                     <MenuItem key={item.id} item={item} onClick={() => handleItemClick(item)} />
                 ))}
             </div>
-            { type === "drink" ? <Link to="/menu"><div className={classes.goToMenuBtn}>Go To The Full Menu</div></Link> : null }
+            { type === "drink" ? <Link to="/menu/2"><div className={classes.goToMenuBtn}>Go To The Full Menu</div></Link> : null }
                   {/* Render Modal */}
             {isModalVisible && (
                 <Modal selectedItem={selectedItem} onCloseModal={closeModal} />

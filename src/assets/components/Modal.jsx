@@ -38,7 +38,7 @@ function Modal({ selectedItem, onCloseModal, onTagClicked }) {
         <div className={classes.backdrop} onClick={onCloseModal}>
             <div className={classes.modal} onClick={(e) => e.stopPropagation()}>
                 <div className={classes.modalContent}>
-                    <div className={classes.modalImageContainer} style={{ backgroundImage: `url(http://127.0.0.1:8000/storage/${selectedItem.image})` }} />
+                    <div className={classes.modalImageContainer} style={{ backgroundImage: `url(${selectedItem.image})` }} />
                     <div className={classes.modalTextContainer}>
                         <div className={classes.separator}>
                             <h2 className={classes.modalContentName}>{selectedItem.name}</h2>

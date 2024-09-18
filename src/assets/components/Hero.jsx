@@ -12,7 +12,7 @@ function Hero() {
                         <h1 className={classes.title}>Where Every Meal Feels Like Home</h1>
                         <p className={classes.hookText}>Experience comfort food with a twist, crafted with love and served with warmth.</p>
                     </div>
-                    <Link to="/menu"><button className={classes.orderBtn}>Order Now</button></Link>
+                    <Link to="/menu/2"><button className={classes.orderBtn}>Order Now</button></Link>
                 </div>
                 <div className={classes.rightSide}>
                     <div className={classes.imageContainer}>
