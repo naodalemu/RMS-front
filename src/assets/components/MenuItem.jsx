@@ -10,7 +10,7 @@ function MenuItem({ item, onClick }) {
     return (
         <div className={classes.menuItem} onClick={onClick}>
             <div className={classes.imgNContent}>
-                <div className={classes.imageContainer} style={{ backgroundImage: `url(http://127.0.0.1:8000/storage/${item.image})` }} />
+                <div className={classes.imageContainer} style={{ backgroundImage: `url(${item.image})` }} />
                 <div className={classes.menuItemContent}>
                     <h3 className={classes.itemName}>{truncateText(item.name, 30)}</h3>
                     <p className={classes.itemDesc}>{truncateText(item.description, 80)}</p>
